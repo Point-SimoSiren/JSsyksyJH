@@ -4,6 +4,9 @@ const puhelimet = ["Oppo", "Apple", "Samsung", "Honor"]
 // Käydään em. taulukko läpi forEach silmukassa
 // jokainen alkio saa aliasnimen puh
 
+// Taulukkoon voidaan lisätä alkioita push komennolla
+puhelimet.push("Nokia")
+
 puhelimet.forEach(puh => {
 
     if (puh === "Apple") {
