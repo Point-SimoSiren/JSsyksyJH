@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello page</title>
+</head>
+    <body>
+
+        <center>
+            <h1 style="color: coral;">Hello page</h1>
+
+            <marquee>
+                <p>Moikka!</p>
+            </marquee>
+
+            <button onclick="tervehdi()">Nappi</button>
+            
+        </center>
+        
+        <script>
+            function tervehdi() {
+             //alert("Tervetuloa!")
+
+            let vastaus = window.confirm("Haluatko syömään?")
+
+            if (vastaus == true) {
+                alert("Mene sitten!!")
+            } 
+            else {
+                  alert("No älä mene sitten.")
+            }
+            }
+        </script>
+    
+</body>
+</html>
