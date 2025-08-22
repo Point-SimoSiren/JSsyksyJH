@@ -8,5 +8,5 @@ puhelimet.forEach(puh => {
     console.log(puh)
 })
 
-// Suorita: node silmukat.js
+// Suorita: node silmukka.js
 
